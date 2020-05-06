@@ -15,8 +15,8 @@
 <ul>
     <% @article.comments.each do |comment| %>
         <li>
-            <strong> Commenter: <%= comment.commenter %> </strong><br>
-            <span style='margin-left:3em'> <%= comment.body%> </span>
+            <strong> Commenter: <%= comment.commenter %> </strong>
+            <p style='margin-left:3em'> <%= comment.body%> </p>
         </li>
 <% end %>
 </ul>
